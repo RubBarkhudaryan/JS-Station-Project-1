@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", "Arial";
+    color: rgb(246, 240, 240);
+}
+
+body {
+    background-color: black;
+}
+
+.counter-form {
+    display: block;
+    margin: auto;
+    margin-top: 10%;
+    width: fit-content;
+    padding: 20px;
+    background-color: rgba(50, 50, 50, 0.5);
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#counter {
+    display: block;
+    resize: none;
+    width: 95%;
+    height: 80px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.counter-form>button {
+    display: block;
+    width: 95%;
+    margin: auto;
+    padding: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(100, 100, 100, 0.6);
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.counter-form>button:hover {
+    background-color: rgba(100, 100, 100, 0.3);
+}
+
+label {
+    display: inline-block;
+    width: 170px;
+}
+
+p {
+    margin: auto;
+    width: 100%;
+    margin: 10px;
+}
+
+input {
+    display: inline-block;
+    width: 70px;
+    margin-left: 50px;
+    background-color: rgba(100, 100, 100, 0.3);
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+}
+
+::selection {
+    background-color: rgba(100, 100, 100, 0.7);
+}
